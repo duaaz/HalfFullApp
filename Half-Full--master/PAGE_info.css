@@ -1,0 +1,70 @@
+body {
+background-color: #B0E0E6;
+}
+/* MAIN FONT - CLASS */
+/* --------------------------------------------------------------------------*/
+.Quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* MAIN FONT - CLASS */
+/* --------------------------------------------------------------------------*/
+.centerText{
+  text-align: center;
+}
+
+/* CENTER IMAGE - CLASS */
+/* --------------------------------------------------------------------------*/
+.centerImage{
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+/* TEXT - CLASS */
+/* --------------------------------------------------------------------------*/
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+
+/* HEADING #1 - CLASS */
+/* --------------------------------------------------------------------------*/
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADING #2 - CLASS */
+/* --------------------------------------------------------------------------*/
+h2{
+  text-align: auto;
+  font-size: 24px;
+}
+
+/* BOTTOM LINE - CLASS */
+/* --------------------------------------------------------------------------*/
+.bottomLine {
+  border-bottom-style: dotted;
+  padding-bottom: 20px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavLogo{
+  float: right;
+  display: block;
+  width: 70px;
+  height: 70px;
+}

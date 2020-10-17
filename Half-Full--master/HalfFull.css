@@ -1,0 +1,340 @@
+body {
+  background-color: #ADD8E6;
+}
+
+
+.Quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.centerImage{
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 220px;
+  padding-bottom: 5px;
+  margin-top: 95px;
+}
+
+#tips1, #tips2, #tips3, #tips4, #tips5, #tips6{
+  display: none;
+}
+
+#playlist1, #playlist2, #playlist3, #playlist4, #playlist5, #playlist6{
+  display: none;
+}
+
+#breathe1, #breathe2, #breathe3, #breathe4, #breathe5, #breathe6{
+  display: none;
+}
+
+#food1, #food2, #food3, #food4, #food5, #food6{
+  display: none;
+}
+
+#resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+  display: none;
+}
+
+.smaller_centerImage {
+  display: block;
+  margin: auto;
+  width: 140px;
+  height: 155px;
+}
+
+.smaller_sideImage {
+  display: inline-block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  margin-left: 800px;
+}
+
+.side_number {
+  display: inline-block;
+  margin: auto;
+  margin-left: 800px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  float: right;
+  margin-top: 40px;
+  margin-right: 815px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+h4 {
+  text-align: center;
+  float: right;
+  margin-top: 10px;
+  margin-right: 810px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+.icons{
+  border-radius: 50%;
+  border: 6px solid black;
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.playlist{
+  display: block;
+  margin: auto;
+  width: 250px;
+  length: 300px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bottomLine{
+  border-bottom-style: dotted;
+  padding-bottom: 20px;
+}
+
+.description {
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+  font-size: 15px;
+  padding: 13px 10px;
+  display: block;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  width: 70px;
+}
+
+button:hover {
+  background-color: #F0F8FF;
+  color: black;
+}
+
+h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+.sideimage {
+  display: block;
+  margin: auto;
+  width: 140px;
+  height: 170px;
+  margin-right: 300px;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed
+    top: 0;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.NavLogo{
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+a{
+  text-decoration: none;
+  }
+
+.small_button {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #4682B4;
+  border: none;
+  font-size: 25px;
+  padding: 11px 44px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.small_button:hover {
+  background-color: #F0F8FF;
+}
+
+/*-----------------------------------------------------------------*/
+/* SURVEY BUTTON -- CLASS */
+/* ----------------------------------------------------------------*/
+.btn-group-vert .button {
+    background-color: #4682B4;
+    color: white;
+    padding: 13px 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 270px;
+    display: block;
+}
+
+.btn-group-vert .button:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-group-vert .button:hover {
+    background-color: #F0F8FF;
+    color: black;
+}
+
+.btn-group-horiz .button {
+    background-color: #4682B4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    float: left;
+    margin-right: 5px;
+}
+
+.btn-group-horiz .button:hover {
+    background-color: #F0F8FF;
+    color: black;
+}
+
+/* ----------------------------------------------------------------*/
+/* BUTTON COLORS - CLASS */
+/* -----------------------------------------------------------------*/
+.row {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.column {
+  text-align: center;
+  margin-bottom: 12px;
+  float: center;
+  display: inline-block;
+  width: 20%;
+}
+
+.red {
+  background-color: #cc0000;
+  color: white;
+}
+
+.orange {
+  background-color: #ff8533;
+  color: black;
+}
+
+.yellow {
+  background-color: #ffff1a;
+  color: black;
+}
+
+.green {
+  background-color: #47d147;
+  color: black;
+}
+
+.blue {
+  background-color: #0066ff;
+  color: white;
+}
+
+.purple {
+  background-color: #deaeea;
+  color: black;
+}
+
+.black {
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.cream {
+  background-color: #FFF0F5;
+  color: black;
+}
+
+.default {
+  background-color: #4682B4;
+  color: white;
+}
+
+.next {
+  background-color: #00008B;
+  color: white;
+  float: right;
+  margin-top: 100px;
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+  font-size: 15px;
+  padding: 13px 10px;
+  display: block;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  width: 70px;
+  margin-bottom: 20px;
+}
+/* -------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------*/
